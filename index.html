@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno Ancud | Servicio Técnico</title>
+  <link rel="stylesheet" href="assets/aleph.css">
+  <style>
+     /* Edicion Imagenes de servicos*/
+     .service-icon {
+      height: 300px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f5f5f5; 
+      border-radius: 8px 8px 0 0;
+      overflow: hidden;
+    }
+    .service-icon img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain; 
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover .service-icon img {
+      transform: scale(1.03);
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">TECHNO<span>ANCUD</span></div>
+      <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <div class="hero-slide active" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/Servicio\ Tecnico.jpg')">
+      <div class="slide-content">
+        <h1>Servicio Técnico Profesional</h1>
+        <p>Tu tecnología en las mejores manos - Soluciones rápidas y efectivas en Ancud</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/Reparacion-de-equiposjpg.jpg')">
+      <div class="slide-content">
+        <h1>Reparaciones Express</h1>
+        <p>Problemas tecnológicos? Nosotros los resolvemos al instante con máxima eficiencia</p>
+        <a href="#servicios" class="btn">Ver Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="servicios">
+    <div class="container">
+      <h2 class="section-title">Nuestros <span>Servicios</span></h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/cambio de pantalla notebook.jpg" alt="Cambio de pantalla notebook">
+          </div>
+          <div class="service-content">
+            <h3>Cambio de Pantalla Notebook</h3>
+            <p>Servicio rápido y profesional de cambio de pantalla para notebooks. Reparación garantizada con repuestos originales, ideal para todas las marcas.</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/cambio de bisagra.jpg" alt="Reparación de bisagras">
+          </div>
+          <div class="service-content">
+            <h3>Reparación de Bisagras</h3>
+            <p>Reparación experta de bisagras para notebook. Soluciones rápidas y seguras para prolongar la vida útil de tu equipo.</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/mantenimiento consolas.png" alt="Reparación de consolas">
+          </div>
+          <div class="service-content">
+            <h3>Reparación de Consolas</h3>
+            <p>Reparamos consolas de videojuegos de todas las marcas, problemas de encendido, actualización de software. ¡Servicio garantizado!</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+      
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/Actualizacion Notbk.jpg" alt="Kit actualización notebook">
+          </div>
+          <div class="service-content">
+            <h3>Kit Actualización Notebook</h3>
+            <p>Mejora el rendimiento de tu notebook con nuestro servicio de upgrade: más velocidad, almacenamiento y eficiencia para un mejor desempeño.</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/placa madre.jpg" alt="Reparación de placas madre">
+          </div>
+          <div class="service-content">
+            <h3>Reparación de Placas Madre</h3>
+            <p>Servicio especializado en reparación de motherboard para notebooks. Diagnóstico preciso, reemplazo de componentes y solución rápida.</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="assets/img/mantenimiento notebook.png" alt="Mantención para notebook">
+          </div>
+          <div class="service-content">
+            <h3>Mantención para Notebook</h3>
+            <p>Servicio de limpieza profesional para notebooks: elimina polvo, mejora el rendimiento, evita sobrecalentamiento y prolonga la vida útil del equipo.</p>
+            <a href="#contacto" class="service-btn">Ir al servicio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="productos">
+    <div class="container">
+      <h2 class="section-title">Productos <span>Destacados</span></h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-badge nuevo">NUEVO</div>
+          <div class="product-image">
+            <img src="assets/img/Apple Mac.jpg" alt="Apple Macbook">
+          </div>
+          <div class="product-info">
+            <h3>Apple Macbook Pro 13</h3>
+            <p>Core i5 2.3 GHz 8GB RAM 256GB SSD (2017) Gris Reacondicionado</p>
+            <div class="product-price">$389.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-badge oferta">OFERTA</div>
+          <div class="product-image">
+            <img src="assets/img/disco SSD.jpg" alt="Disco SSD">
+          </div>
+          <div class="product-info">
+            <h3>Disco SSD 1TB</h3>
+            <p>SATA III, velocidad hasta 550MB/s, ideal para upgrades</p>
+            <div class="product-price">$69.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="assets/img/Teclado y mouse.webp" alt="Kit Teclado y Mouse">
+          </div>
+          <div class="product-info">
+            <h3>Kit Teclado + Mouse Gamer</h3>
+            <p>RGB, retroiluminado, ergonómico, conexión USB</p>
+            <div class="product-price">$39.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-badge">GARANTÍA</div>
+          <div class="product-image">
+            <img src="assets/img/Monitor Led 24.jpg" alt="Monitor Led">
+          </div>
+          <div class="product-info">
+            <h3>Pantalla Externa 24"</h3>
+            <p>Full HD, HDMI/VGA, ángulo de visión 178°</p>
+            <div class="product-price">$149.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+    
+        <div class="product-card">
+          <div class="product-badge nuevo">NUEVO</div>
+          <div class="product-image">
+            <img src="assets/img/Tablet Mlab.jpg" alt="Tablet Android">
+          </div>
+          <div class="product-info">
+            <h3>Tablet Android 10"</h3>
+            <p>4GB RAM, 64GB almacenamiento, dual SIM</p>
+            <div class="product-price">$129.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-badge oferta">OFERTA</div>
+          <div class="product-image">
+            <img src="assets/img/Audifono Gamer.jpg" alt="Auriculares Gamer">
+          </div>
+          <div class="product-info">
+            <h3>Auriculares Gamer</h3>
+            <p>7.1 surround sound, micrófono retráctil, RGB</p>
+            <div class="product-price">$34.990</div>
+            <a href="#contacto" class="product-btn">Consultar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2 class="section-title">Contáctanos</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <h3>Teléfono</h3>
+            <p>+56 9 3145 4196</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h3>Email</h3>
+            <p>technoancud@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h3>Ubicación</h3>
+            <p>Ancud, Región de Los Lagos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 <strong>Techno Ancud</strong> - Servicio Técnico Profesional</p>
+    </div>
+  </footer>
+
+  <script>
+    // Carrusel automático
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.hero-slide');
+    
+    function nextSlide() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+    setInterval(nextSlide, 5000);
+  </script>
+</body>
+</html>
